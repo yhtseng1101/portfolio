@@ -1,0 +1,73 @@
+body {
+
+}
+
+h2, h3 {
+
+}
+
+#navbar, .navbar-burger {
+    background-color: #FFEF18;
+}
+
+.projectBtn {
+    vertical-align: 8px;
+}
+
+.liveBtn {
+    background-color: #FFEF18;
+    border: none;
+}
+
+.liveBtn:hover {
+    background-color: #FFDB4A;
+    border: none;
+}
+
+.projectHero {
+    margin-bottom: 3rem;
+}
+
+#linkedinBtn {
+    background-color: #037BB6;
+    color: white;
+}
+
+#githubBtn {
+    background-color: #444444;
+    color: white;
+}
+
+.icon {
+    font-size: 1.4rem;
+}
+
+#techArea {
+    text-align: center;
+}
+
+#projectTitle, #footerTitle {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#introArea {
+    background-image: url('./img/aceSpaceBattle2.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #262624;
+}
+
+#footerArea {
+    text-align: center;
+}
+
+.skillText {
+    margin-bottom: 3px;
+    font-size: large;
+}
+
+#me {
+    max-width: 270px;
+}
