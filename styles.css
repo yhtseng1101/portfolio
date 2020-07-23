@@ -71,3 +71,7 @@ h2, h3 {
 #me {
     max-width: 270px;
 }
+
+#modal {
+    text-align: center;
+}
