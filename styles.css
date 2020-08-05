@@ -112,3 +112,7 @@ h2, h3 {
 
     background-color: blue;
 }
+
+.firstletter {
+    font-weight: 2rem;
+}
