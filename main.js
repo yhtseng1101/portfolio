@@ -1,3 +1,5 @@
+// toggle nav-burger
+
 document.addEventListener('DOMContentLoaded', () => {
 
     // Get all "navbar-burger" elements
@@ -21,23 +23,25 @@ document.addEventListener('DOMContentLoaded', () => {
         });
       });
     }
-  
   });
 
-  document.addEventListener('DOMContentLoaded', () => {
-    const modal = document.getElementById("modal");
-    setTimeout(function() {
-        modal.classList.toggle("is-active");
-    }, 1000);
+// toggel modal
 
-  })
+// document.addEventListener('DOMContentLoaded', () => {
+//   const modal = document.getElementById("modal");
+//   setTimeout(function() {
+//       modal.classList.toggle("is-active");
+//   }, 1000);
 
-  const closeBtn = document.getElementById("closeBtn");
-  closeBtn.onclick = function() {
-    modal.classList.remove("is-active");
-  }
+// })
 
-  const closeBG = document.getElementsByClassName("modal-background")[0];
-  closeBG.onclick = function() {
-    modal.classList.remove("is-active");
-  }
+// const closeBtn = document.getElementById("closeBtn");
+// closeBtn.onclick = function() {
+//   modal.classList.remove("is-active");
+// }
+
+// const closeBG = document.getElementsByClassName("modal-background")[0];
+// closeBG.onclick = function() {
+//   modal.classList.remove("is-active");
+// }
+
